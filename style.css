@@ -16,8 +16,8 @@ gap: 15px;}
     border-width: 2em;
     display: flex;
     flex-grow: 0;
-    height:48em;
-  width : 48em;
+    height:960px;
+  width : 960px;
   flex-direction: column;
   box-sizing: border-box;
 }
@@ -30,7 +30,7 @@ gap: 15px;}
     border-style: solid;
     display: flex;
     flex-grow: 1;
-    flex-direction: row;
+  
 }
 
 .row
@@ -60,4 +60,23 @@ h1
 {
     font-family:'Press Start 2P'  ;
     font-size: 90px;
+}
+
+.content
+{
+    border-color: black;
+    border-width: 2em;
+    display: flex;
+    flex-grow: 0;
+    height:960px;
+  width : 960px;
+  flex-direction: column;
+  box-sizing: border-box;
+} 
+#btncontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
 }
